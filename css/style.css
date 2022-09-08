@@ -51,14 +51,14 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 .firstparagraph h1{
     text-align: center;
     font-family: sans-serif, 'Times New Roman', Times, serif;
-    letter-spacing: 3px;
+    letter-spacing: 5 px;
     font-size: 30px;
 }
 
 .personal {
    width: 500px;
    padding: 10px 20px;
-   background-color:#0F3D3E;
+   background-color:#1f323f;
    left: 50%;
    text-align: left;
    color:#E2DCC8    
@@ -80,7 +80,7 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 .sidenav{
     width:10%;
     height: 100%;
-    background: #0F3D3E;
+    background: #35566b;
     position:fixed;
     top: 0;
     right: 0;
