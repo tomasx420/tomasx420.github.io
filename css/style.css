@@ -1,75 +1,84 @@
 body {
-    width:90%;
-    margin:0;
-    background-color: #E2DCC8;   
+    margin-right: 50px;
+    width: 90%;
+    margin: 0;
+    background-color: #f7f5ed;
 }
 
-nav{
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
+nav {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav {
-  position:fixed;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #406882;  
-  width:100%;
+    overflow: hidden;
+    position: fixed;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #406882;
+    width: 100%;
 }
 
-.navli {
-  float:left;
-
-}
-
-.navli a:hover{
+.nav a:hover,
+.dropdown:hover .dropbtn {
     background-color: #1A374D;
 }
 
-.navli a:active{
+.nav a:active {
     background-color: #B1D0E0;
 }
 
-.navli a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  }
-
-.firstparagraph{
-Margin-left: 10px;
-padding-top: 50px;
-padding-right: 20px;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.firstparagraph h1{
+#navbar{
+    position: relative;
+    left: 5%;
+}
+
+.firstparagraph {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.firstparagraph h1 {
     text-align: center;
     font-family: sans-serif, 'Times New Roman', Times, serif;
     letter-spacing: 5px;
     font-size: 30px;
 }
 
-.personal {
-   width: 500px;
-   padding: 10px 20px;
-   background-color:#1f323f;
-   left: 50%;
-   text-align: left;
-   color:#E2DCC8    
+.personal h2 {
+    display: inline-block;
+}
 
+.personal #icon {
+    margin-top: 15px;
+    float: right;
+    vertical-align: center;
+    width: 40px;
 
 }
 
-.personal hr{
+.personal {
+    width: 30%;
+    padding: 10px 30px;
+    background-color: #1f323f;
+    left: 50%;
+    text-align: left;
+    color: #E2DCC8
+}
+
+.personal hr {
     background-color: aliceblue;
-    margin: -5  px;
-    
+    margin: -5 px;
+
 
 }
 
@@ -77,36 +86,40 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     background-color: #B1D0E0;
 }
 
-.sidenav{
-    width:10%;
+.sidenav {
+    width: 10%;
     height: 100%;
     background: #35566b;
-    position:fixed;
+    position: fixed;
     top: 0;
     right: 0;
     padding: 20px 30px;
-    margin-top:20px;
+    margin-top: 20px;
 
 }
 
-.sidenavul li{
-    display:block;
+.sidenavul li {
+    display: block;
     text-align: left;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
 
 }
 
-.sidenavul{
-    list-style-type:none;
-    position:fixed;
+.sidenavul {
+    list-style-type: none;
+    position: fixed;
 
 
 }
 
-.sidenavul a{
+.sidenavul a {
     font-size: 15px;
 
-    color:white;
+    color: white;
 
+}
+
+.sidenav a:hover{
+    color:#B1D0E0;
 }
