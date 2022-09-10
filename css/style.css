@@ -5,8 +5,12 @@ body {
     background-color: #f7f5ed;
 }
 
-main{
-    height:auto;
+#profilebody{
+    Height: 1200px;
+}
+
+main {
+    height: auto;
 
 }
 
@@ -60,21 +64,37 @@ nav {
     left: 20px;
 }
 
-.firstparagraph {
+.pagename {
     padding-top: 74px;
     margin-right: 205px;
     margin-left: 30px;
 }
 
 
-.firstparagraph h1 {
+.pagename h1 {
     text-align: center;
     font-family: sans-serif, 'Times New Roman', Times, serif;
     letter-spacing: 7px;
-    font-size: 3S0px;
 }
 
-.personal h2 {
+.header2 {
+    margin-right: 205px;
+    margin-left: 30px;
+
+}
+
+.header2 h3 {
+    text-align: center;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    letter-spacing: 7px;
+    font-size: 22px;
+    margin-bottom: 50px;
+
+}
+
+.personal h2,
+.nationality h2,
+.extracurricular h2 {
     display: inline-block;
 }
 
@@ -92,7 +112,7 @@ nav {
     height: 100%;
     width: 30%;
     padding: 10px 30px;
-    background-color: #1f323f;
+    background-color: #13293D;
     text-align: left;
     color: #f7f5ed;
     border-radius: 40px;
@@ -107,7 +127,7 @@ nav {
     height: 100%;
     width: 30%;
     padding: 10px 30px;
-    background-color: #1f323f;
+    background-color: #13293D;
     text-align: left;
     color: #f7f5ed;
     border-radius: 40px;
@@ -115,36 +135,72 @@ nav {
     filter: drop-shadow(12px 10px 4px #a4a4a4);
 }
 
-.nationality h2 {
-    display: inline-block;
-}
-
 .personal hr,
-.nationality hr {
+.nationality hr,
+.extracurricular hr {
     background-color: aliceblue;
     margin: -5px;
 
 }
 
-#flag{
+#listnamework{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#listnamehobbies{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#flag {
     margin-top: 23px;
-    width:100%;
-    height:110px;
+    width: 100%;
+    height: 110px;
     margin-bottom: 20px;
 }
 
-#extra{
-    clear:both;
-    margin-right:205px;
-    margin-left:30px;
+#hrtag {
+    clear: both;
+    margin-right: 205px;
+    margin-left: 30px;
 }
 
-#extra hr{
-    margin-top: 320px;  
-    border-radius: 2px;;
-    background-color:black;
+#hrtag hr {
+    margin-top: 320px;
+    border-radius: 2px;
+    background-color: black;
     border-width: 1px;
     width: 50%;
+}
+
+.extracurricular {
+    float: left;
+    margin-left: 40px;
+    height: 100%;
+    width: 78%;
+    padding: 10px 30px;
+    background-color: #13293D;
+    text-align: left;
+    color: #f7f5ed;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    filter: drop-shadow(12px 10px 4px #a4a4a4);
+    z-index: 1;
+}
+
+.extracurricular p {
+    font-size: 15px;
+}
+
+.extracurricular li {
+    padding: 5px 0px;
+
+}
+
+#work {
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .current {
