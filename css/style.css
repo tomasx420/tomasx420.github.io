@@ -5,7 +5,7 @@ body {
     background-color: #f7f5ed;
 }
 
-#profilebody{
+#profilebody {
     Height: 1200px;
 }
 
@@ -26,7 +26,7 @@ nav {
     overflow: hidden;
     background-color: #406882;
     width: 100%;
-    z-index: 100;
+    z-index: 5;
 }
 
 .nav a:hover,
@@ -62,6 +62,16 @@ nav {
 #navbar {
     position: relative;
     left: 20px;
+}
+
+footer {
+    margin-top: 500px;
+    background-color: black;
+    clear: both;
+}
+
+.footer{
+    z-index:20;
 }
 
 .pagename {
@@ -118,7 +128,7 @@ nav {
     border-radius: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     filter: drop-shadow(12px 10px 4px #a4a4a4);
-    z-index: 1;
+    z-index: 3;
 }
 
 .nationality {
@@ -133,6 +143,7 @@ nav {
     border-radius: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     filter: drop-shadow(12px 10px 4px #a4a4a4);
+    z-index: 3;
 }
 
 .personal hr,
@@ -143,12 +154,12 @@ nav {
 
 }
 
-#listnamework{
+#listnamework {
     font-size: 20px;
     font-weight: bold;
 }
 
-#listnamehobbies{
+#listnamehobbies {
     font-size: 20px;
     font-weight: bold;
 }
@@ -176,9 +187,9 @@ nav {
 
 .extracurricular {
     float: left;
-    margin-left: 40px;
+    margin-left: 50px;
     height: 100%;
-    width: 78%;
+    width: 77%;
     padding: 10px 30px;
     background-color: #13293D;
     text-align: left;
@@ -216,7 +227,7 @@ nav {
     right: 0;
     padding: 20px 30px;
     margin-top: 20px;
-
+    z-index: 5;
 }
 
 .sidenavul li {
@@ -230,6 +241,7 @@ nav {
 .sidenavul {
     list-style-type: none;
     position: fixed;
+    z-index: 100;
 
 
 }
