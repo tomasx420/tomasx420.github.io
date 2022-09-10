@@ -1,8 +1,13 @@
 body {
-    margin-right: 50px;
-    width: 90%;
+    width: 100%;
+    height: auto;
     margin: 0;
     background-color: #f7f5ed;
+}
+
+main{
+    height:auto;
+
 }
 
 nav {
@@ -17,6 +22,7 @@ nav {
     overflow: hidden;
     background-color: #406882;
     width: 100%;
+    z-index: 100;
 }
 
 .nav a:hover,
@@ -55,23 +61,24 @@ nav {
 }
 
 .firstparagraph {
-    padding-top: 75px;
-    padding-left: 50px;
+    padding-top: 74px;
+    margin-right: 205px;
+    margin-left: 30px;
 }
 
 
 .firstparagraph h1 {
     text-align: center;
     font-family: sans-serif, 'Times New Roman', Times, serif;
-    letter-spacing: 5px;
-    font-size: 30px;
+    letter-spacing: 7px;
+    font-size: 3S0px;
 }
 
 .personal h2 {
     display: inline-block;
 }
 
-.personal #icon {
+.icon {
     margin-top: 12px;
     float: right;
     vertical-align: center;
@@ -80,22 +87,64 @@ nav {
 }
 
 .personal {
-    margin-left: 30px;
+    float: left;
+    margin-left: 40px;
     height: 100%;
     width: 30%;
     padding: 10px 30px;
     background-color: #1f323f;
     text-align: left;
-    color: #E2DCC8;
+    color: #f7f5ed;
     border-radius: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    filter: drop-shadow(12px 10px 4px #a4a4a4);
+    z-index: 1;
 }
 
-.personal hr {
+.nationality {
+    margin-right: 235px;
+    float: right;
+    height: 100%;
+    width: 30%;
+    padding: 10px 30px;
+    background-color: #1f323f;
+    text-align: left;
+    color: #f7f5ed;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    filter: drop-shadow(12px 10px 4px #a4a4a4);
+}
+
+.nationality h2 {
+    display: inline-block;
+}
+
+.personal hr,
+.nationality hr {
     background-color: aliceblue;
     margin: -5px;
 
+}
 
+#flag{
+    margin-top: 23px;
+    width:100%;
+    height:110px;
+    margin-bottom: 20px;
+}
+
+#extra{
+    clear:both;
+    margin-right:205px;
+    margin-left:30px;
+}
+
+#extra hr{
+    margin-top: 320px;  
+    border-radius: 2px;;
+    background-color:black;
+    border-width: 1px;
+    width: 50%;
 }
 
 .current {
@@ -103,7 +152,7 @@ nav {
 }
 
 .sidenav {
-    width: 10%;
+    width: 145px;
     height: 100%;
     background: #35566b;
     position: fixed;
