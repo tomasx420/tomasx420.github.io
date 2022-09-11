@@ -5,7 +5,7 @@ body {
     background-color: #f7f5ed;
 }
 
-#profilebody {
+#profilebody, #faqbody {
     Height: 1200px;
 }
 
@@ -118,7 +118,7 @@ footer {
 
 .personal {
     float: left;
-    margin-left: 40px;
+    margin-left: 60px;
     height: 100%;
     width: 30%;
     padding: 10px 30px;
@@ -132,7 +132,7 @@ footer {
 }
 
 .nationality {
-    margin-right: 235px;
+    margin-right: 257px;
     float: right;
     height: 100%;
     width: 30%;
@@ -148,7 +148,7 @@ footer {
 
 .personal hr,
 .nationality hr,
-.extracurricular hr {
+.extracurricular hr, .faq hr {
     background-color: aliceblue;
     margin: -5px;
 
@@ -189,7 +189,7 @@ footer {
     float: left;
     margin-left: 50px;
     height: 100%;
-    width: 77%;
+    width: 75.9%;
     padding: 10px 30px;
     background-color: #13293D;
     text-align: left;
@@ -213,6 +213,52 @@ footer {
     font-size: 20px;
     line-height: 30px;
 }
+
+.faq{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 65%;
+    width: 75.9%;
+    padding: 10px 30px;
+    background-color: #13293D;
+    text-align: left;
+    color: #f7f5ed;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    filter: drop-shadow(12px 10px 4px #a4a4a4);
+    z-index: 1;
+
+}
+
+.faq img{
+    margin:20px;
+}
+
+#faqhr{
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.faq ol{
+    font-size:18px;
+    line-height: 60px;
+}
+
+.faq ul{
+    list-style-type:square;
+    line-height: 30px;
+    word-spacing: 4px;
+} 
+
+.faq a{
+    color:aliceblue;
+}
+
+.faq a:hover{
+    color:aqua;
+}
+
 
 .current {
     background-color: #B1D0E0;
