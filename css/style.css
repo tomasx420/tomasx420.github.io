@@ -3,6 +3,7 @@ body {
     height: auto;
     margin: 0;
     background-color: #f7f5ed;
+
 }
 
 #profilebody,
@@ -37,6 +38,7 @@ nav {
 .nav a:hover,
 .dropdown:hover .dropbtn {
     background-color: #1A374D;
+    transition: 0.6s;
 }
 
 .nav a:active {
