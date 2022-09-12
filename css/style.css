@@ -5,8 +5,13 @@ body {
     background-color: #f7f5ed;
 }
 
-#profilebody, #faqbody {
+#profilebody,
+#faqbody {
     Height: 1200px;
+}
+
+#dashboardbody {
+    height: 1500px;
 }
 
 main {
@@ -70,8 +75,8 @@ footer {
     clear: both;
 }
 
-.footer{
-    z-index:20;
+.footer {
+    z-index: 20;
 }
 
 .pagename {
@@ -148,7 +153,8 @@ footer {
 
 .personal hr,
 .nationality hr,
-.extracurricular hr, .faq hr {
+.extracurricular hr,
+.faq hr {
     background-color: aliceblue;
     margin: -5px;
 
@@ -214,13 +220,59 @@ footer {
     line-height: 30px;
 }
 
-.faq{
+#dashboard {
+    border: 2px solid;
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 65%;
+    width: 75.9%;
+    background-color: #13293D;
+    text-align: left;
+    color: #f7f5ed;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    z-index: 1;
+    font-size: 20px;
+    border-collapse: collapse;
+
+}
+
+#dashboard tr {
+    text-align: center;
+    line-height: 45px;
+}
+
+#hrtagdash {
+    clear: both;
+    margin-right: 205px;
+    margin-left: 30px;
+}
+
+#hrtagdash hr {
+    color: black;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: black;
+    border-width: 1.3px;
+    width: 50%;
+}
+
+#pbar {
+    padding: 20px;
+    margin-left: 295px;
+    width: 50%;
+}
+
+
+.faq {
     float: left;
     margin-left: 50px;
     margin-top: 20px;
+    margin-bottom: 20px;
     height: 65%;
     width: 75.9%;
-    padding: 10px 30px;
+    padding: 30px 30px;
     background-color: #13293D;
     text-align: left;
     color: #f7f5ed;
@@ -231,32 +283,32 @@ footer {
 
 }
 
-.faq img{
-    margin:20px;
+.faq img {
+    margin: 20px;
 }
 
-#faqhr{
-    margin-top:10px;
-    margin-bottom:15px;
+#faqhr {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
-.faq ol{
-    font-size:18px;
+.faq ol {
+    font-size: 18px;
     line-height: 60px;
 }
 
-.faq ul{
-    list-style-type:square;
+.faq ul {
+    list-style-type: square;
     line-height: 30px;
     word-spacing: 4px;
-} 
-
-.faq a{
-    color:aliceblue;
 }
 
-.faq a:hover{
-    color:aqua;
+.faq a {
+    color: aliceblue;
+}
+
+.faq a:hover {
+    color: aqua;
 }
 
 
