@@ -77,6 +77,7 @@ nav {
     padding-top: 74px;
     margin-right: 205px;
     margin-left: 30px;
+    word-spacing: 20px;
 }
 
 
@@ -85,6 +86,7 @@ nav {
     font-family: sans-serif, 'Times New Roman', Times, serif;
     letter-spacing: 7px;
     transition: 1s;
+    word-spacing: 10px;
 }
 
 .pagename h1:hover,
@@ -108,7 +110,7 @@ nav {
     letter-spacing: 7px;
     font-size: 22px;
     margin-bottom: 50px;
-    transition: 1s; 
+    transition: 1s;
 
 }
 
@@ -224,6 +226,7 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     filter: drop-shadow(12px 10px 4px #a4a4a4);
     z-index: 3;
+    font-size: 18px;
 }
 
 .nationality {
@@ -239,14 +242,10 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     filter: drop-shadow(12px 10px 4px #a4a4a4);
     z-index: 3;
+    font-size: 18px;
 }
 
-.personal hr,
-.nationality hr,
-.extracurricular hr,
-.faq hr,
-.whyhz hr,
-.whyict hr {
+.h2hr {
     background-color: aliceblue;
     margin: -5px;
 
@@ -265,8 +264,8 @@ nav {
 #flag {
     margin-top: 23px;
     width: 100%;
-    height: 110px;
-    margin-bottom: 20px;
+    height: 120px;
+    margin-bottom: 25px;
 }
 
 #hrtag {
@@ -297,6 +296,7 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     filter: drop-shadow(12px 10px 4px #a4a4a4);
     z-index: 1;
+    font-size: 22px;
 }
 
 .extracurricular p {
@@ -398,10 +398,52 @@ nav {
 
 .faq a {
     color: aliceblue;
+    transition: 0.5s;
 }
 
 .faq a:hover {
+    transition: 0.5s;
     color: aqua;
+}
+
+.blog {
+    margin-top: 40px;
+    margin-left: 170px;
+    margin-bottom: 100px;
+    height: 100%;
+    width: 60%;
+    padding: 0px 40px;
+    padding-top:10px;
+    padding-bottom: 30px;
+    background-color: #13293D;
+    text-align: left;
+    color: #f7f5ed;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    filter: drop-shadow(12px 10px 4px #a4a4a4);
+    z-index: 3;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.blog a{
+    text-decoration: none;
+    background-color: #f7f5ed;
+    color:#13293D;
+    padding:20px;
+    border-radius: 20px;
+    transition: 1s;
+ 
+}
+
+.blog a:hover{
+    background-color: #B1D0E0;
+    padding-right: 700px;
+    border-radius: 100px;
+    letter-spacing: 5px;
+    transition: 1s;
+
+
 }
 
 
@@ -446,9 +488,9 @@ nav {
 }
 
 .sidenavul a {
-    padding-top:20px;
-    padding-bottom:50px;
-    padding-right:40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 40px;
     font-size: 15px;
     text-decoration: none;
     font-weight: bold;
