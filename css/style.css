@@ -84,9 +84,19 @@ nav {
     text-align: center;
     font-family: sans-serif, 'Times New Roman', Times, serif;
     letter-spacing: 7px;
+    transition: 1s;
+}
+
+.pagename h1:hover,
+.header2 h3:hover {
+    letter-spacing: 14px;
+    transition: 1s;
+    margin-left: 2px;
+
 }
 
 .header2 {
+
     margin-right: 205px;
     margin-left: 30px;
 
@@ -98,6 +108,7 @@ nav {
     letter-spacing: 7px;
     font-size: 22px;
     margin-bottom: 50px;
+    transition: 1s; 
 
 }
 
@@ -136,7 +147,8 @@ nav {
 
 }
 
-.whyhz img, .whyict img {
+.whyhz img,
+.whyict img {
     margin-top: 20px;
     float: right;
     vertical-align: center;
@@ -261,7 +273,7 @@ nav {
     clear: both;
     margin-right: 205px;
     margin-left: 30px;
-    
+
 }
 
 #hrtag hr {
@@ -405,15 +417,23 @@ nav {
     top: 0;
     right: 0;
     padding: 20px 30px;
-    margin-top: 20px;
+    margin-top: 50px;
     z-index: 5;
+
+
 }
 
 .sidenavul li {
     display: block;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
+    margin-top: 30px;
+    background-color: #f7f5ed;
+    margin-right: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    filter: drop-shadow(12px 10px 4px #1d303b);
+    transition: 0.7s;
 
 }
 
@@ -426,12 +446,21 @@ nav {
 }
 
 .sidenavul a {
+    padding-top:20px;
+    padding-bottom:50px;
+    padding-right:40px;
     font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
 
-    color: white;
+    color: #13293D;
 
 }
 
-.sidenav a:hover {
-    color: #B1D0E0;
+.sidenavul li:hover {
+    background-color: #B1D0E0;
+    padding-bottom: 50px;
+    vertical-align: middle;
+    transition: 0.5s;
+
 }
