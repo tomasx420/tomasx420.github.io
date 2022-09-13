@@ -43,6 +43,7 @@ nav {
 
 .nav a:active {
     background-color: #B1D0E0;
+    transition: 0.1s;
 }
 
 #navbar a {
@@ -71,15 +72,6 @@ nav {
     left: 20px;
 }
 
-footer {
-    margin-top: 500px;
-    background-color: black;
-    clear: both;
-}
-
-.footer {
-    z-index: 20;
-}
 
 .pagename {
     padding-top: 74px;
@@ -111,7 +103,9 @@ footer {
 
 .personal h2,
 .nationality h2,
-.extracurricular h2 {
+.extracurricular h2,
+.whyhz h2,
+.whyict h2 {
     display: inline-block;
 }
 
@@ -120,6 +114,88 @@ footer {
     float: right;
     vertical-align: center;
     width: 40px;
+
+}
+
+.whyhz {
+    margin-top: 50px;
+    margin-left: 170px;
+    margin-bottom: 150px;
+    height: 100%;
+    width: 60%;
+    padding: 10px 30px;
+    background-color: #13293D;
+    text-align: left;
+    color: #f7f5ed;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    filter: drop-shadow(12px 10px 4px #a4a4a4);
+    z-index: 3;
+    font-size: 25px;
+    line-height: 50px;
+
+}
+
+.whyhz img, .whyict img {
+    margin-top: 20px;
+    float: right;
+    vertical-align: center;
+    width: 50px;
+
+}
+
+.whyict img {
+    margin-top: 18px;
+    float: right;
+    vertical-align: center;
+    width: 70px;
+
+}
+
+.whyhz a {
+    padding: 5px;
+    background-color: #f7f5ed;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #13293D;
+    transition: 1s;
+}
+
+.whyhz a:hover {
+    transition: 1s;
+    padding: 20px;
+    background-color: #B1D0E0;
+}
+
+
+
+.whyhz ul {
+    line-height: 70px;
+
+}
+
+#reasons {
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.whyict {
+    margin-top: 50px;
+    margin-left: 170px;
+    margin-bottom: 150px;
+    height: 100%;
+    width: 60%;
+    padding: 10px 30px;
+    background-color: #13293D;
+    text-align: left;
+    color: #f7f5ed;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    filter: drop-shadow(12px 10px 4px #a4a4a4);
+    z-index: 3;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 1px;
 
 }
 
@@ -156,7 +232,9 @@ footer {
 .personal hr,
 .nationality hr,
 .extracurricular hr,
-.faq hr {
+.faq hr,
+.whyhz hr,
+.whyict hr {
     background-color: aliceblue;
     margin: -5px;
 
@@ -183,6 +261,7 @@ footer {
     clear: both;
     margin-right: 205px;
     margin-left: 30px;
+    
 }
 
 #hrtag hr {
@@ -247,7 +326,7 @@ footer {
 
 #hrtagdash {
     clear: both;
-    margin-right: 205px;
+    margin-right: 230px;
     margin-left: 30px;
 }
 
