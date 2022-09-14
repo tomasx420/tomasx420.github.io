@@ -3,7 +3,6 @@ body {
     height: auto;
     margin: 0;
     background-color: #f7f5ed;
-
 }
 
 #profilebody,
@@ -17,7 +16,6 @@ body {
 
 main {
     height: auto;
-
 }
 
 nav {
@@ -64,7 +62,6 @@ nav {
 
 .nav #hzlink {
     display: overlay;
-
 }
 
 #navbar {
@@ -72,14 +69,12 @@ nav {
     left: 20px;
 }
 
-
 .pagename {
     padding-top: 74px;
     margin-right: 205px;
     margin-left: 30px;
     word-spacing: 20px;
 }
-
 
 .pagename h1 {
     text-align: center;
@@ -94,14 +89,11 @@ nav {
     letter-spacing: 14px;
     transition: 1s;
     margin-left: 2px;
-
 }
 
 .header2 {
-
     margin-right: 205px;
     margin-left: 30px;
-
 }
 
 .header2 h3 {
@@ -111,7 +103,6 @@ nav {
     font-size: 22px;
     margin-bottom: 50px;
     transition: 1s;
-
 }
 
 .personal h2,
@@ -127,7 +118,6 @@ nav {
     float: right;
     vertical-align: center;
     width: 40px;
-
 }
 
 .whyhz {
@@ -146,7 +136,6 @@ nav {
     z-index: 3;
     font-size: 25px;
     line-height: 50px;
-
 }
 
 .whyhz img,
@@ -155,7 +144,6 @@ nav {
     float: right;
     vertical-align: center;
     width: 50px;
-
 }
 
 .whyict img {
@@ -163,7 +151,6 @@ nav {
     float: right;
     vertical-align: center;
     width: 70px;
-
 }
 
 .whyhz a {
@@ -181,11 +168,8 @@ nav {
     background-color: #B1D0E0;
 }
 
-
-
 .whyhz ul {
     line-height: 70px;
-
 }
 
 #reasons {
@@ -210,7 +194,6 @@ nav {
     font-size: 25px;
     line-height: 50px;
     letter-spacing: 1px;
-
 }
 
 .personal {
@@ -248,7 +231,6 @@ nav {
 .h2hr {
     background-color: aliceblue;
     margin: -5px;
-
 }
 
 #listnamework {
@@ -272,7 +254,6 @@ nav {
     clear: both;
     margin-right: 205px;
     margin-left: 30px;
-
 }
 
 #hrtag hr {
@@ -305,7 +286,6 @@ nav {
 
 .extracurricular li {
     padding: 5px 0px;
-
 }
 
 #work {
@@ -324,11 +304,9 @@ nav {
     color: #f7f5ed;
     border-radius: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
     z-index: 1;
     font-size: 20px;
     border-collapse: collapse;
-
 }
 
 #dashboard tr {
@@ -356,7 +334,6 @@ nav {
     margin-left: 295px;
     width: 50%;
 }
-
 
 .faq {
     float: left;
@@ -434,7 +411,6 @@ nav {
     padding: 20px;
     border-radius: 20px;
     transition: 1s;
-
 }
 
 .blog a:hover {
@@ -443,8 +419,6 @@ nav {
     border-radius: 100px;
     letter-spacing: 5px;
     transition: 1s;
-
-
 }
 
 .post {
@@ -513,8 +487,6 @@ nav {
     padding: 20px 30px;
     margin-top: 50px;
     z-index: 5;
-
-
 }
 
 .sidenavul li {
@@ -528,15 +500,12 @@ nav {
     padding: 10px;
     filter: drop-shadow(12px 10px 4px #1d303b);
     transition: 0.7s;
-
 }
 
 .sidenavul {
     list-style-type: none;
     position: fixed;
     z-index: 100;
-
-
 }
 
 .sidenavul a {
@@ -546,9 +515,7 @@ nav {
     font-size: 15px;
     text-decoration: none;
     font-weight: bold;
-
     color: #13293D;
-
 }
 
 .sidenavul li:hover {
@@ -556,5 +523,4 @@ nav {
     padding-bottom: 50px;
     vertical-align: middle;
     transition: 0.5s;
-
 }
