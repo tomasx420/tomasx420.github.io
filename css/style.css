@@ -1,15 +1,19 @@
+/*
+!! COMMENTS EXPLAINING THE STYLING AND FUNCTION
+ARE ABOVE THE STYLE RULES
+*/
 body {
     width: 100%;
     height: auto;
     margin: 0;
     background-color: #f7f5ed;
 }
-
+/*Profile and FAQ page's height*/
 #profilebody,
 #faqbody {
     Height: 1200px;
 }
-
+/* Dashboard page height*/
 #dashboardbody {
     height: 1500px;
 }
@@ -17,11 +21,11 @@ body {
 main {
     height: auto;
 }
-
+/* Navigation bar fonts*/
 nav {
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Styling for the navigation bar*/
 .nav {
     padding: 10px 0px;
     overflow: hidden;
@@ -32,18 +36,18 @@ nav {
     width: 100%;
     z-index: 5;
 }
-
+/* Styling for hovering over navigation objects*/
 .nav a:hover,
 .dropdown:hover .dropbtn {
     background-color: #1A374D;
     transition: 0.6s;
 }
-
+/* Styling for the active page on the navigation bar*/
 .nav a:active {
     background-color: #B1D0E0;
     transition: 0.1s;
 }
-
+/* Styling for the words in the navigation bar*/
 #navbar a {
     float: left;
     color: white;
@@ -52,30 +56,27 @@ nav {
     text-decoration: none;
     border-radius: 5px;
 }
-
+/* Styling for the HZ logo in the nav bar*/
 .nav img {
     float: left;
     width: 200px;
     padding-left: 10px;
     height: 50px;
-}
-
-.nav #hzlink {
     display: overlay;
 }
-
+/* Styling for the div with the links */
 #navbar {
     position: relative;
     left: 20px;
 }
-
+/* header-div (page name) styling*/
 .pagename {
     padding-top: 74px;
     margin-right: 205px;
     margin-left: 30px;
     word-spacing: 20px;
 }
-
+/* Styling for the h1 in the header*/
 .pagename h1 {
     text-align: center;
     font-family: sans-serif, 'Times New Roman', Times, serif;
@@ -83,19 +84,19 @@ nav {
     transition: 1s;
     word-spacing: 10px;
 }
-
+/* Animation for the headers when you hover over them*/
 .pagename h1:hover,
 .header2 h3:hover {
     letter-spacing: 14px;
     transition: 1s;
     margin-left: 2px;
 }
-
+/* styling for the header2 styling*/
 .header2 {
     margin-right: 205px;
     margin-left: 30px;
 }
-
+/* styling for the h3 object of the page*/
 .header2 h3 {
     text-align: center;
     font-family: sans-serif, 'Times New Roman', Times, serif;
@@ -104,7 +105,7 @@ nav {
     margin-bottom: 50px;
     transition: 1s;
 }
-
+/* styling for the page paragraph headers*/
 .personal h2,
 .nationality h2,
 .extracurricular h2,
@@ -112,14 +113,14 @@ nav {
 .whyict h2 {
     display: inline-block;
 }
-
+/* icon styling in the paragraphs */
 .icon {
     margin-top: 12px;
     float: right;
     vertical-align: center;
     width: 40px;
 }
-
+/* styling for the "Why HZ?" paragrapgh (Index.html)*/
 .whyhz {
     margin-top: 50px;
     margin-left: 170px;
@@ -137,22 +138,21 @@ nav {
     font-size: 25px;
     line-height: 50px;
 }
-
-.whyhz img,
-.whyict img {
+/* individual styling for the first icon on index page*/
+.whyhz img{
     margin-top: 20px;
     float: right;
     vertical-align: center;
     width: 50px;
 }
-
+/* individual styling for the second icon on index page*/
 .whyict img {
     margin-top: 18px;
     float: right;
     vertical-align: center;
     width: 70px;
 }
-
+/* first paragraph's (index.html) link styling*/ 
 .whyhz a {
     padding: 5px;
     background-color: #f7f5ed;
@@ -161,13 +161,13 @@ nav {
     color: #13293D;
     transition: 1s;
 }
-
+/* first paragrapgh (index.html) link's transition */
 .whyhz a:hover {
     transition: 1s;
     padding: 20px;
     background-color: #B1D0E0;
 }
-
+/* first paragrapgh (index.html) list styling*/
 .whyhz ul {
     line-height: 70px;
 }
@@ -176,7 +176,7 @@ nav {
     margin-top: -20px;
     margin-bottom: -10px;
 }
-
+/* Styling for the "Why ICT?" paragrapgh (index)*/
 .whyict {
     margin-top: 50px;
     margin-left: 170px;
@@ -195,7 +195,7 @@ nav {
     line-height: 50px;
     letter-spacing: 1px;
 }
-
+/* Personal Information parag. styling (profile)*/
 .personal {
     float: left;
     margin-left: 60px;
@@ -211,7 +211,7 @@ nav {
     z-index: 3;
     font-size: 18px;
 }
-
+/* Nationality parag. styling (profile)*/
 .nationality {
     margin-right: 257px;
     float: right;
@@ -232,30 +232,30 @@ nav {
     background-color: aliceblue;
     margin: -5px;
 }
-
+/* styling for lists in profile page*/
 #listnamework {
     font-size: 20px;
     font-weight: bold;
 }
-
+/* styling for lists in profile page*/
 #listnamehobbies {
     font-size: 20px;
     font-weight: bold;
 }
-
+/* styling for the flag profile page*/
 #flag {
     margin-top: 23px;
     width: 100%;
     height: 120px;
     margin-bottom: 25px;
 }
-
+/* styling for the div that holds the hr element*/
 #hrtag {
     clear: both;
     margin-right: 205px;
     margin-left: 30px;
 }
-
+/* individual styling for the hr element in the div */
 #hrtag hr {
     margin-top: 320px;
     border-radius: 2px;
@@ -263,7 +263,7 @@ nav {
     border-width: 1px;
     width: 50%;
 }
-
+/* Extracurricular parag. styling (profile)*/
 .extracurricular {
     float: left;
     margin-left: 50px;
@@ -279,20 +279,20 @@ nav {
     z-index: 1;
     font-size: 22px;
 }
-
+/* Extracurricular parag. individual element styling (profile)*/
 .extracurricular p {
     font-size: 15px;
 }
-
+/* Extracurricular parag. individual element styling (profile)*/
 .extracurricular li {
     padding: 5px 0px;
 }
-
+/* styling for the work paragrapgh*/
 #work {
     font-size: 20px;
     line-height: 30px;
 }
-
+/* styling for the dashboard*/
 #dashboard {
     border: 2px solid;
     margin-left: 80px;
@@ -308,18 +308,19 @@ nav {
     font-size: 20px;
     border-collapse: collapse;
 }
-
+/* extra styling for the table*/
 #dashboard tr {
     text-align: center;
     line-height: 45px;
 }
 
+/* styling for the div that holds the hr element in dashboard*/
 #hrtagdash {
     clear: both;
     margin-right: 230px;
     margin-left: 30px;
 }
-
+/* Individual styling for the hr element in dashboard*/
 #hrtagdash hr {
     color: black;
     margin-top: 30px;
@@ -328,13 +329,13 @@ nav {
     border-width: 1.3px;
     width: 50%;
 }
-
+/* progress bar styling (dashboard)*/
 #pbar {
     padding: 20px;
     margin-left: 295px;
     width: 50%;
 }
-
+/* FAQ paragrapgh styling*/
 .faq {
     float: left;
     margin-left: 50px;
@@ -351,39 +352,39 @@ nav {
     filter: drop-shadow(12px 10px 4px #a4a4a4);
     z-index: 1;
 }
-
+/* Icon styling on FAQ*/
 .faq img {
     margin: 20px;
 }
-
+/* HR styling in FAQ*/
 #faqhr {
     margin-top: 10px;
     margin-bottom: 15px;
 }
-
+/* Styling for the ordered list items in FAQ*/
 .faq ol {
     font-size: 18px;
     line-height: 60px;
     font-size: 20px;
 }
-
+/* Styling for the unordered list items in FAQ*/
 .faq ul {
     list-style-type: square;
     line-height: 30px;
     word-spacing: 4px;
     font-size: 20px;
 }
-
+/* Styling for the anchor items in FAQ*/
 .faq a {
     color: aliceblue;
     transition: 0.5s;
 }
-
+/* animation and styling for hovering over anchor items in FAQ*/
 .faq a:hover {
     transition: 0.5s;
     color: aqua;
 }
-
+/* Styling for the blog paragrapgh*/
 .blog {
     margin-top: 40px;
     margin-left: 170px;
@@ -403,7 +404,7 @@ nav {
     font-size: 25px;
     line-height: 50px;
 }
-
+/* Styling for the anchor items in BLOG*/
 .blog a {
     text-decoration: none;
     background-color: #f7f5ed;
@@ -412,7 +413,7 @@ nav {
     border-radius: 20px;
     transition: 1s;
 }
-
+/* Styling and Animation for the anchor items when hovering BLOG*/
 .blog a:hover {
     background-color: #B1D0E0;
     padding-right: 550px;
@@ -420,7 +421,7 @@ nav {
     letter-spacing: 5px;
     transition: 1s;
 }
-
+/* Styling for the BlogPosts*/
 .post {
     margin-top: 40px;
     margin-left: 170px;
@@ -441,12 +442,12 @@ nav {
     line-height: 50px;
     letter-spacing: 1.5px;
 }
-
+/* Styling for the back button on blogposts*/
 .postback {
     margin-top: 10px;
     margin-bottom: -10px;
 }
-
+/*styling for the anchor on the back button in blogposts*/
 .postback a {
     background-color: #f7f5ed;
     color: #13293D;
@@ -455,7 +456,7 @@ nav {
     border-radius: 20px;
     transition: 0.7s;
 }
-
+/* animation and styling for the back button on BLogPost*/
 .postback a:hover {
     padding-right: 40px;
     transition: 0.7s;
@@ -472,11 +473,11 @@ nav {
     color: aqua;
     transition: 0.5s;
 }
-
+/* styling for the current page the user is on*/
 .current {
     background-color: #B1D0E0;
 }
-
+/* Styling for the sidenav div*/
 .sidenav {
     width: 145px;
     height: 100%;
@@ -488,7 +489,7 @@ nav {
     margin-top: 50px;
     z-index: 5;
 }
-
+/* styling for the sidenavigation list items*/
 .sidenavul li {
     display: block;
     text-align: left;
@@ -501,13 +502,13 @@ nav {
     filter: drop-shadow(12px 10px 4px #1d303b);
     transition: 0.7s;
 }
-
+/* styling for the sidenavigation list*/
 .sidenavul {
     list-style-type: none;
     position: fixed;
     z-index: 100;
 }
-
+/* styling for the anchor items in the sidenav*/
 .sidenavul a {
     padding-top: 20px;
     padding-bottom: 50px;
@@ -517,7 +518,7 @@ nav {
     font-weight: bold;
     color: #13293D;
 }
-
+/* animation for the sidenav items*/
 .sidenavul li:hover {
     background-color: #B1D0E0;
     padding-bottom: 50px;
